@@ -40,7 +40,7 @@ try {
 	public void openapp( ) throws Exception 
 	     {
 		
-		    //System.setProperty("webdriver.gecko.driver","src\\main\\resources\\DriverRepo\\geckodriver.exe");
+		    System.setProperty("webdriver.gecko.driver","src\\main\\resources\\DriverRepo\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			driver.get(com.getProperty("url"));
 			System.out.println("here is the url ============" + com.getProperty("url"));

@@ -1,41 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28132" started-at="2018-05-05T02:35:32Z" finished-at="2018-05-05T02:36:00Z">
+  <suite name="Default suite" duration-ms="32224" started-at="2018-06-03T20:56:03Z" finished-at="2018-06-03T20:56:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28132" started-at="2018-05-05T02:35:32Z" finished-at="2018-05-05T02:36:00Z">
-      <class name="TestPackage.SharedFileTestClass">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:TestPackage.SharedFileTestClass@61832929]" name="openapp" is-config="true" duration-ms="4371" started-at="2018-05-04T22:35:32Z" finished-at="2018-05-04T22:35:36Z">
+    <test name="Default test" duration-ms="32224" started-at="2018-06-03T20:56:03Z" finished-at="2018-06-03T20:56:36Z">
+      <class name="TestPackage.TestClass">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:TestPackage.TestClass@5b275dab]" name="openapp" is-config="true" duration-ms="12805" started-at="2018-06-03T16:56:03Z" finished-at="2018-06-03T16:56:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="SharedFileTestMethod()[pri:0, instance:TestPackage.SharedFileTestClass@61832929]" name="SharedFileTestMethod" duration-ms="3496" started-at="2018-05-04T22:35:36Z" finished-at="2018-05-04T22:35:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SharedFileTestMethod -->
-      </class> <!-- TestPackage.SharedFileTestClass -->
-      <class name="TestPackage.RepositoryTest">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:TestPackage.RepositoryTest@29774679]" name="openapp" is-config="true" duration-ms="3588" started-at="2018-05-04T22:35:40Z" finished-at="2018-05-04T22:35:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="RepositoryTestMethod()[pri:2, instance:TestPackage.RepositoryTest@29774679]" name="RepositoryTestMethod" duration-ms="3986" started-at="2018-05-04T22:35:43Z" finished-at="2018-05-04T22:35:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RepositoryTestMethod -->
-      </class> <!-- TestPackage.RepositoryTest -->
-      <class name="TestPackage.HomePageTestClass">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:TestPackage.HomePageTestClass@3ffc5af1]" name="openapp" is-config="true" duration-ms="4831" started-at="2018-05-04T22:35:47Z" finished-at="2018-05-04T22:35:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="HomePageTestMethod()[pri:1, instance:TestPackage.HomePageTestClass@3ffc5af1]" name="HomePageTestMethod" duration-ms="7849" started-at="2018-05-04T22:35:52Z" finished-at="2018-05-04T22:36:00Z">
+        <test-method status="PASS" signature="HomePageTestMethod()[pri:1, instance:TestPackage.TestClass@5b275dab]" name="HomePageTestMethod" duration-ms="19394" started-at="2018-06-03T16:56:16Z" finished-at="2018-06-03T16:56:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageTestMethod -->
-      </class> <!-- TestPackage.HomePageTestClass -->
+      </class> <!-- TestPackage.TestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
